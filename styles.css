@@ -1,0 +1,31 @@
+.gallery {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.filter-options {
+  margin-bottom: 20px;
+}
+
+.filter-options button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
